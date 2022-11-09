@@ -238,6 +238,7 @@ function decode() {
         }
     }
     console.log(result);
+    document.getElementById("output_matrix").innerHTML = result;
 }
 
 

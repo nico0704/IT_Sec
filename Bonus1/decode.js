@@ -1,3 +1,9 @@
+// key:
+// a b c d e f g h i j k l m n o p q r s t u v w x y z
+// z : I , H d B   s * ! n ? u m g * o i F b P U * * S
+// abcdefghijklmnopqrstuvwxyz
+// z:I,HdB s*!n?umg*oiFbPU**S
+
 const alphabetic_distribution = [
     " ",
     "e",
@@ -240,6 +246,7 @@ function decode() {
     console.log(result);
     document.getElementById("output_matrix").innerHTML = result;
 }
+
 
 
 // unangepasste map nach erstmaligen decodieren:

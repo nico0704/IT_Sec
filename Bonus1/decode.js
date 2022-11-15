@@ -2,7 +2,8 @@
 // a b c d e f g h i j k l m n o p q r s t u v w x y z
 // z : I , H d B   s * ! n ? u m g * o i F b P U * * S
 // abcdefghijklmnopqrstuvwxyz
-// z:I,HdB s*!n?umg*oiFbPU**S
+// z:I,HdB sN!n?umg*oiFbPU**S
+
 
 const alphabetic_distribution = [
     " ",
@@ -136,6 +137,10 @@ let obj = [
         key: "d",
         value: "f",
     },
+    {
+        key: "N",
+        value: "j",
+    },
     // Uppercase:
     {
         key: "G",
@@ -158,7 +163,7 @@ let obj = [
         value: "V",
     },
     {
-        key: "N",
+        key: "Q",
         value: "T",
     },
     {
@@ -172,10 +177,6 @@ let obj = [
     {
         key: "C",
         value: "B",
-    },
-    {
-        key: "Q",
-        value: "T",
     },
     {
         key: "q",
@@ -198,13 +199,57 @@ let obj = [
         value: "U",
     },
     {
-        key: "j",
-        value: "S",
-    },
-    {
         key: "K",
         value: "A",
-    }
+    },
+    {
+        key: "a",
+        value: ".",
+    },
+    {
+        key: ".",
+        value: "G",
+    },
+    {
+        key: "j",
+        value: ":",
+    },
+    {
+        key: "x",
+        value: "\"",
+    },
+    {
+        key: "R",
+        value: "?",
+    },
+    {
+        key: "k",
+        value: "I",
+    },
+    {
+        key: "O",
+        value: "F",
+    },
+    {
+        key: "r",
+        value: ",",
+    },
+    {
+        key: "D",
+        value: "J",
+    },
+    {
+        key: "f",
+        value: "'",
+    },
+    {
+        key: "\"",
+        value: "E",
+    },
+    {
+        key: "t",
+        value: "-",
+    },
 
 ];
 

@@ -27,7 +27,9 @@ while True:
     reg = (reg >> 1) | (bit << 23)
     random_32 >>= 1 #right-shift number by 1 to "make space" for the new calculated bit
     random_32 = (bit << 31) | random_32 #add new bit as the most significant bit of a 32-bit number   
+    print("{0:b}".format(bit), end="")
     if (random_32 == Zx):
+        print()
         print("FOUND!!!")
         print("{0:b}".format(random_32))
         break
